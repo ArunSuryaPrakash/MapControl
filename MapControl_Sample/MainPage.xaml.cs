@@ -29,7 +29,7 @@ namespace MapControl_Sample
             this.InitializeComponent();
         }
 
-        private async void mapControl_Loaded(object sender, RoutedEventArgs e)
+        private async void mapControl_Loaded(object sender, RoutedEventArgs e,object sender, RoutedEventArgs e)
         {
             if(mapControl.Is3DSupported)
             {
